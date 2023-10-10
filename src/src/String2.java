@@ -14,9 +14,9 @@ public class String2 {
         int number = content.indexOf(wordToSearch);
 
         if (number == -1) {
-            System.out.println("Error the words are not found.");
+            System.out.println("ERROR: the word cannot be found.");
         } else {
-            System.out.println("The word is found: " + number);
+            System.out.println("The word was found: " + number);
         }
         scanner.close();
 
