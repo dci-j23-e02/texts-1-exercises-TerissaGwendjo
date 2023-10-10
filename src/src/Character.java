@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Character {
-    public static void main(String[]args){
+    public static void main(StringClass[]args){
 //        //is the character a letter?
 //        System.out.println(java.lang.Character.isLetter('f'));
 //        System.out.println(java.lang.Character.isLetter('1'));

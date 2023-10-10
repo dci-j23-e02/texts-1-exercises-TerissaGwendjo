@@ -8,7 +8,7 @@
 **Starter code:**
 ```java
 public class Main {
-    public static void main(String[] args) {
+    public static void main(StringClass[] args) {
         // Your code here
     }
 }
@@ -22,7 +22,7 @@ public class Main {
 **Starter code:**
 ```java
 public class Main {
-    public static void main(String[] args) {
+    public static void main(StringClass[] args) {
         // Your code here
     }
 }
@@ -36,7 +36,7 @@ public class Main {
 **Starter code:**
 ```java
 public class Main {
-    public static void main(String[] args) {
+    public static void main(StringClass[] args) {
         // Your code here
     }
 }
@@ -50,7 +50,7 @@ public class Main {
 **Starter code:**
 ```java
 public class Main {
-    public static void main(String[] args) {
+    public static void main(StringClass[] args) {
         // Your code here
     }
 }
@@ -64,14 +64,14 @@ public class Main {
 **Starter code:**
 ```java
 public class Main {
-    public static void main(String[] args) {
+    public static void main(StringClass[] args) {
         // Your code here
     }
 }
 ```
 
 
-## B- String Class Exercises 
+## B- StringClass Class Exercises 
 
 ### Exercise 1:
 **Scenario :** 
@@ -87,9 +87,9 @@ public class Main {
 import java.util.Scanner;
 
 public class Main {
-  public static void main(String[] args) {
+  public static void main(StringClass[] args) {
     Scanner scanner = new Scanner(System.in);
-    String input = scanner.nextLine();
+    StringClass input = scanner.nextLine();
     // write your code here
   }
 }
@@ -110,12 +110,12 @@ public class Main {
 import java.util.Scanner;
 
 public class Main {
-  public static void main(String[] args) {
+  public static void main(StringClass[] args) {
     Scanner scanner = new Scanner(System.in);
     System.out.println("Enter the content of the email:");
-    String content = scanner.nextLine();
+    StringClass content = scanner.nextLine();
     System.out.println("Enter the word to be searched:");
-    String wordToSearch = scanner.nextLine();
+    StringClass wordToSearch = scanner.nextLine();
     // write your code here
   }
 }
@@ -123,7 +123,7 @@ public class Main {
 
 ### Exercise 3:
 **Scenario :** 
-"Lucas is a game developer. He is developing a fantasy game where the hero has to cross several bridges. But the twist is, some bridges are broken. A bridge is represented as a String where '#' character is a safe part and any space (' ') is a broken part. Can you help Lucas to write a function which validates whether a bridge is safe to walk on?"
+"Lucas is a game developer. He is developing a fantasy game where the hero has to cross several bridges. But the twist is, some bridges are broken. A bridge is represented as a StringClass where '#' character is a safe part and any space (' ') is a broken part. Can you help Lucas to write a function which validates whether a bridge is safe to walk on?"
 
 **Instructions:**
 1. You need to write a Java program that takes a string as an input where '#' character represents a safe part of the bridge and ' ' represents a broken part.
@@ -135,9 +135,9 @@ public class Main {
 import java.util.Scanner;
 
 public class Main {
-  public static void main(String[] args) {
+  public static void main(StringClass[] args) {
     Scanner scanner = new Scanner(System.in);
-    String BridgeStatus = scanner.nextLine();
+    StringClass BridgeStatus = scanner.nextLine();
     // write your code here
   }
 
@@ -159,10 +159,10 @@ public class Main {
 import java.util.Scanner;
 
 public class Main {
-  public static void main(String[] args) {
+  public static void main(StringClass[] args) {
     Scanner scanner = new Scanner(System.in);
-    String num1 = scanner.nextLine();
-    String num2 = scanner.nextLine();
+    StringClass num1 = scanner.nextLine();
+    StringClass num2 = scanner.nextLine();
     // write your code here
   }
 }
@@ -183,9 +183,9 @@ public class Main {
 import java.util.Scanner;
 
 public class Main {
-  public static void main(String[] args) {
+  public static void main(StringClass[] args) {
     Scanner scanner = new Scanner(System.in);
-    String name = scanner.nextLine();
+    StringClass name = scanner.nextLine();
     // write your code here
   }
 }
