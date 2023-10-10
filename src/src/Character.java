@@ -43,6 +43,8 @@ public class Character {
         //EXERCISE 5
         System.out.println(name1.toUpperCase());
 
+        input.close();
+
 
 
 

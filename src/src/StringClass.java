@@ -7,6 +7,7 @@ public class StringClass {
         System.out.println("Please write your code here: ");
         String input = scanner.nextLine();
         System.out.println(input.toUpperCase());
+        scanner.close();
     }
 
 }
