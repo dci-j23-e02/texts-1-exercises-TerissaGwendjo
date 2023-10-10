@@ -16,7 +16,7 @@ public class String3 {
         }
 
     }
-
+    // write your isSafeBridge method here
     public static boolean isSafeBridge(String bridge) {
         // Iterate through each character in the bridge string
         for (char c : bridge.toCharArray()) {
@@ -28,7 +28,12 @@ public class String3 {
         // If no spaces are found, return true (safe bridge)
         return true;
     }
+   /* So, the public static boolean isSafeBridge(String bridge) method
+    is a publicly accessible static method that takes a String argument
+    called bridge, and it returns a boolean value indicating whether the
+    bridge is safe (true) or not safe (false). The method's logic checks
+    the characters in the bridge string to determine its safety,
+    as demonstrated in the code.*/
 
-    // write your isSafeBridge method here
 }
 
